@@ -1,0 +1,72 @@
+body{
+    font-family: Courier, Helvetica, sans-serif;
+    font-size: 15px;
+    /*line-height: 1.5;*/
+    margin:0;
+    padding:0;
+    background-image: url("../img/cov.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* SEPARATOR FOR MY MENTAL SANITY */
+
+footer{
+    color: #ffffff;
+    padding:1%;
+}
+
+header{
+    width: 100%;
+    background: #020202;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #600000 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #name{
+    float: left;
+}
+
+header #name h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    /*margin-top: 8px;*/
+}
+
+header a:hover{
+    color: #969696;
+    /*font-weight: bold;*/
+}
+
+#current{
+    color: #600000;
+}
